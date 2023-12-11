@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <title>Fazendinha</title>
+</head>
+<body>
+    <div class="navbar show-menu">
+        <div class="header-inner-content">        
+            <div class="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="medicamentos.html">Medicamentos</a></li>
+                    <li><a href="arames.html">Arames e Ferragens</a></li>
+                    <li><a href="horm.html">Hormônios</a></li>
+                    <li><a href="pet.html">Pets</a></li>
+                </ul>
+            </nav>
+            <div class="c-icones">
+                <img src="img/cart.png">
+                <img src="img/menu.png" class="menu-button">
+            </div>
+        </div>
+    </div>
+
+    <header>
+    
+    </header>
+
+    <main>
+        <div>
+            <div class="page-inner-content">
+                <h3 class="section-title">Arames</h3>
+                <div class="subtitle-underline"></div>
+                <div class="cols cols-4">
+                    <div class="product">
+                        <img src="img/arame1.webp" alt="">
+                        <p class="product-name">Stop anti-diarréico</p>
+                        <p class="product-price"><span>R$</span> 3,00</p>
+                    </div>
+                    <div class="product">
+                        <img src="img/arame2.webp" alt="">
+                        <p class="product-name">Dify controle de carrapato</p>
+                        <p class="product-price"><span>R$</span> 45,00</p>
+                    </div>
+                    <div class="product">
+                        <img src="img/arame3.webp" alt="">
+                        <p class="product-name">Dify controle de carrapato</p>
+                        <p class="product-price"><span>R$</span> 45,00</p>
+                    </div><div class="product">
+                        <img src="img/arame4.webp" alt="">
+                        <p class="product-name">Dify controle de carrapato</p>
+                        <p class="product-price"><span>R$</span> 45,00</p>
+                    </div><div class="product">
+                        <img src="img/arame5.webp" alt="">
+                        <p class="product-name">Dify controle de carrapato</p>
+                        <p class="product-price"><span>R$</span> 45,00</p>
+                    </div><div class="product">
+                        <img src="img/arame6.webp" alt="">
+                        <p class="product-name">Dify controle de carrapato</p>
+                        <p class="product-price"><span>R$</span> 45,00</p>
+                    </div><div class="product">
+                        <img src="img/arame7.webp" alt="">
+                        <p class="product-name">Dify controle de carrapato</p>
+                        <p class="product-price"><span>R$</span> 45,00</p>
+                    </div><div class="product">
+                        <img src="img/arame8.webp" alt="">
+                        <p class="product-name">Dify controle de carrapato</p>
+                        <p class="product-price"><span>R$</span> 45,00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="gray-background">
+        <div class="page-inner-content footer-content">
+            <div class="logo-footer">
+                <div class="logo">
+                    <img src="img/logo-footer.png" alt="logo">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis purus non nisl posuere iaculis vel fermentum risus. Maecenas aliquam turpis nec tellus commodo posuere. Suspendisse potenti.</p>
+                </div>
+            </div>
+            <div class="links">
+                <h3>Horários</h3>
+                <ul>
+                    <li>Seg 08:00 - 18:00</li>
+                    <li>Ter 08:00 - 18:00</li>
+                    <li>Qua 08:00 - 18:00</li>
+                    <li>Qui 08:00 - 18:00</li>
+                    <li>Sex 08:00 - 18:00</li>
+                    <li>Sab 08:00 - 14:00</li>
+                    <li>Dom Fechado</li>
+                </ul>
+            </div>
+        </div>
+        <hr class="page-inner-content">
+        <div class="page-inner-content copy">
+            <p>Copyright 2023 - Jose Mario</p>
+        </div>
+    </footer>
+
+    <script>
+        const navbar = document.querySelector(".navbar");
+        const menubutton = document.querySelector(".menu-button");
+
+        menubutton.addEventListener("click", () =>{
+            navbar.classList.toggle("show-menu");
+        });
+    </script>
+</body>
+</html>
